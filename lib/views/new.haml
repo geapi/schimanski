@@ -4,9 +4,12 @@
     %title Schimanski
   %body
     %center
-      %h2 Enter the Mediathek url here
-      %form{action: "/", method: "POST"}
-        %label{name: :url}
-        %input{name: :url, type: :text, size: 140}
-        %br
-        %input{type: :submit}
+      %h2 Enter the ARD-Mediathek url here
+      %p This is the page in the Mediathek that has the movie player.
+      %p Clicking submit will lookup the download link and display it.
+      %p
+        %form{action: "/", method: "POST"}
+          %label{name: :url}
+          %input{name: :url, type: :text, size: 140}
+          %br
+          %input{type: :submit}
