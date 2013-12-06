@@ -1,0 +1,12 @@
+!!!
+%html
+  %head
+    %title Schimanski
+  %body
+    %center
+      %h2 Enter the Mediathek url here
+      %form{action: "/", method: "POST"}
+        %label{name: :url}
+        %input{name: :url, type: :text, size: 140}
+        %br
+        %input{type: :submit}
