@@ -5,7 +5,9 @@
   %body
     %center
       %h2 Enter the ARD-Mediathek url here
-      %p This is the page in the Mediathek that has the movie player.
+      %p This is the page in the
+      %a{href: "https://www.ardmediathek.de/ard/", title: "Mediathek"} Mediathek
+      that has the movie player.
       %p Clicking submit will lookup the download link and display it.
       %p
         %form{action: "/", method: "POST"}

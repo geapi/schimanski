@@ -1,3 +1,3 @@
-## app to get download links from (ard) mediathek urls
+## App to get download links from (ARD) mediathek urls
 
-- work in progress
+- written in Sinatra
